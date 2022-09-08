@@ -46,9 +46,11 @@ Nav ul li a{
     width: 10rem;
     height: 4rem;
 }
+/*
 .logo{
     margin-right: 5rem;
 }
+*/
 .form-control{
     width: 20rem;
     height: 4rem;
@@ -776,7 +778,7 @@ Acerca de
 .probando{
     display: flex;
 }
-.gridRegistro{
+/* .gridRegistro{
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: repeat(3,auto);
@@ -784,7 +786,7 @@ Acerca de
     "nav nav nav"
     "foto form ref"
     "pie pie pie";
-}
+} */
 .ulNav{
     grid-area: nav
 }

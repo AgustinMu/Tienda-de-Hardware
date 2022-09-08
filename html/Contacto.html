@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/Icons8-Ios7-Gaming-Joystick.ico" type="image/x-icon">
     <title>HardShop</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark asd">
         <div class="container-fluid ">
         <div class="logo">
             <a href="../index.html" class="HardShop">
@@ -24,16 +25,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="fs-1 conteiner me-1 me-auto">
                 <li>
-                    <a class="me-5" href="Registro.html">Registro</a>
+                    <a class="me-5 text-white" href="./Registro.html">Registro</a>
                 </li>
                 <li>
-                    <a class="me-5"  href="Acerca-de.html">Acerca de</a>
+                    <a class="me-5 text-white"  href="./Acerca-de.html">Acerca de</a>
                 </li>
                 <li>
-                    <a class="me-5"  href="Privacidad.html">Privacidad</a>
+                    <a class="me-5 text-white"  href="./Privacidad.html">Privacidad</a>
                 </li>
                 <li>
-                    <a class="me-5" href="Contacto.html">Contacto</a>
+                    <a class="me-5 text-white" href="./Contacto.html">Contacto</a>
                 </li>
             </ul>
           
@@ -46,10 +47,28 @@
         </div>
       </nav>
 
-    <main>
+    <main class="">
         <h1>Contacto</h1>
-        <h2>Contactate con Nosotros:</h2>
-        <div class="text-center contacto">
+        <h2 class="mb-5">Contactate con Nosotros:</h2>
+        <form class="d-block text-center ">
+        <div class="mb-5">
+            <!-- <label for="exampleFormControlInput1" class="form-label ">EMAIL</label> -->
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-5">
+            <!-- <label for="exampleFormControlInput1" class="form-label">USERNAME</label> -->
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="UserName">
+          </div>
+          <div class="mb-5">
+            <!-- <label for="exampleFormControlInput1" class="form-label">TELEFONO</label> -->
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Telefono">
+          </div>
+          <div class="mb-5 ms-0">
+            <!-- <label for="exampleFormControlTextarea1" class="form-label">CONSULTA</label> -->
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deja tu comentario o consulta"></textarea>
+          </div>
+        </form>
+        <!-- <div class="text-center contacto">
             <section>
                 <form action="Guardado.php">
                     <input type="text" id="Nombre y Apellido" placeholder="Ingrese su nombre" class="input">
@@ -68,7 +87,7 @@
                     <input type="submit" value="Enviar">
                 </form>
             </section>
-        </div>
+        </div> -->
     </main>
     <footer class="redes conteiner">
         <a href="https://www.facebook.com" target="_blank">
@@ -81,6 +100,8 @@
             <img src="../img/gorjeo (1).png" alt="Seguinos en twitter">
         </a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>     
+
 </body>
 
 </html>
