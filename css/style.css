@@ -17,42 +17,25 @@ main section article p{
     font-size: 3rem;
     line-height: 3.5rem;
 }
-
-html{
-    font-size: 62.5%;
+body{
     background-size: auto;
     background-repeat: repeat;
     background-attachment: fixed;
     background-image: url(../img/gray-abstraction-geometric-background-material-design-stylish-gray-background.jpg);
 }
-
-.ulNav{
-    background-color: rgb(28, 28, 28, 0.95);
-    padding: auto;
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
-    border: 3px;
-    border-color: seashell;
-    border-style: solid;
-    display: flex;
-    justify-content: space-between;
+html{
+    font-size: 62.5%;
 }
 
-.ulNav ul li {
-    display: inline-block;
-    color:white;
-    margin-right: 4rem;
-    margin: 20px;
-}
-.ulNav ul li a{
-    color: white;
-    line-height: 3rem;
-    font-size: 3.8rem;
-    text-decoration: none;
-    font-family: 'Mouse Memoirs', sans-serif 
 
+.btn{
+    width: 10rem;
+    height: 4rem;
+}
+
+.form-control{
+    width: 20rem;
+    height: 4rem;
 }
 
 .ulNav img{
@@ -457,264 +440,6 @@ h4{
     text-decoration: none;
 }
 
-@media (max-width:768px){
-    .grid{    
-        display: grid;
-        grid-template-columns: 1fr;
-    /*grid-template-rows: repeat(5,auto);*/
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "nav"
-        "header"
-        "cat"
-        "main"
-        "img"
-        "pie"
-        ;
-     }
-     
-     .categorias{
-        width: 80%;
-        padding-bottom:  auto;
-        grid-area: cat;
-        margin-top: 22 .5rem;
-        margin-left: 10rem;
-        border-style: solid;
-        margin-bottom: 0rem;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px
-    }   
-    .formCategorias{
-        
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        justify-content:flex-start ;
-        font-size: 3rem;
-        background: rgb(48,48,48);
-        background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(172,171,175,1) 50%, rgba(55,53,53,1) 100%);
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px ;
-    }
-    .imgPcGamer{
-        display: flex;
-        justify-content: end;
-        width: 100%;
-        grid-area: img ; 
-    } 
-
-    .redes{
-        justify-content: center;
-        border: 7px;
-        border-style: solid;
-        border-color: rgb(0, 0, 0);
-        background-color: rgb(28, 28, 28);
-        
-        /* margin-top: auto;
-        margin-bottom: 0%; */
-        margin-top: 20%;
-    }   
-    /*.gridRegistro{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,auto);
-        grid-template-areas: 
-        "nav"
-        "foto"
-        "form"
-        "ref"
-        "pie";*/
-
-        .ulNav{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            
-        }
-
-        .ulNav ul{
-            
-            text-align: right;
-            display: flex;
-            
-        }
-        .ulNav ul li{
-            display: inline-block;
-            margin-left: 30px;
-            margin-bottom: 5px;
-            
-        }
-        .ulNav ul li a{
-            font-size: 2rem;
-        }
-
-/*Acerca de*/
-
-    
-    
-    
-    .imgNuestroProposito{
-        width: 100%;
-        justify-content: center;
-        background-color: black;
-    }
-/*privacidad*/
-.imgTarjetas{
-    display:inline-block;
-}
-.tarjetas{
-    margin-left: 3rem;
-    display: inline-flex;
-    margin-bottom: 10rem;
-    font-size: 2rem;
-    padding-right: 0%;
-    vertical-align: middle;
-    vertical-align: 150%;
-}
-.tarjetasP{
-    font-weight: 800;
-    font-size: 3rem;
-    color: white;
-}
-.imgTransferencia{
-    display: inline-block;
-    width: 100%;
-}
-.transferencia{
-    margin-left: 3rem;
-    display: inline-flex;
-    margin-bottom: 10rem;
-    font-size: 4rem;
-    padding-right: 0%;
-    vertical-align: middle;
-    vertical-align: 150%;  
-}
-
-.transferenciaP{
-    font-weight: 800;
-    font-size: 3rem;
-    color: white;
-}
-.PrivacidadBackground{
-    background-color: rgb(28, 28, 28);
-    width: 100%;
-}    
-.labelNotificaciones{
-    font-size: 2rem;
-    line-height: 4.5rem;
-    color: white;
-}
-.input{
-    width: 20rem;
-    justify-content: center;
-    display: inline-block;
-    margin-top: 20px;
-}
-.input2{
-    width: 10rem;
-    justify-content: center;
-    display: inline-block;
-    margin-top: 20px;
-}
-}
-
-
-@media (min-width:768px){
-    .grid{    
-        display: grid;
-        grid-template-columns: 20% 80%;
-        grid-template-rows: repeat(5,auto);
-        grid-template-areas: 
-        "nav nav "
-        "cat header "
-        "cat main "
-        "img img "
-        "pie pie "
-        ;
-     }
-    
-
-.categorias{
-   width: 80%;
-   padding-bottom:  auto;
-   grid-area: cat;
-   margin-top: 22.5rem;
-   margin-left: 10rem;
-   margin-bottom: -9rem;
-   
-}
-.formCategorias{
-    
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    justify-content:flex-start ;
-    font-size: 3rem;
-    background: rgb(48,48,48);
-    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(172,171,175,1) 50%, rgba(55,53,53,1) 100%);
-    
- }
- .imgPcGamer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    grid-area: img ;
-}
-.redes{
-    justify-content: center;
-    border: 7px;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(28, 28, 28);
-    
-    /* margin-top: auto;
-    margin-bottom: 0%; */
-    margin-top: 20%;
-} 
-/*Acerca de*/
-.imgNuestroProposito{
-    width: 100%;
-    justify-content: center;
-    background-color: black;
-}
-}
-
-@media (min-width:1333px) {
-.grid{
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    /*grid-template-rows: repeat(5,auto);*/
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "nav nav nav"
-    "cat header header"
-    "cat main main"
-    "img img img"
-    "pie pie pie"
-    ;
- }
- .imgPcGamer{
-    width: 100%;
-    grid-area: img ;
- }
- #imgPcGamer2{
-    width: 100%;
-    margin-right: -10rem;
-    border-style: solid;
-}
-.gridRegistro{
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: repeat(3,auto);
-    grid-template-areas: 
-    "nav nav nav"
-    "foto form ref"
-    "pie pie pie";
-}
-}
-
 .nav{
     grid-area: nav;
 }
@@ -735,21 +460,13 @@ h4{
     grid-area: main;
     margin-bottom: 30rem;
 }
-/*
-.aside{
-    grid-area: aside;
-    margin-top: 20rem;
-}  
-*/  
+
 .footer{
     grid-area: pie;
 }
 .imgPcGamer{
 
     width: 100%;
-    /*   padding-right: 10rem;
-
-    margin-left: -20rem;*/
     grid-area: img ;
 }
 #imgPcGamer2{
@@ -777,15 +494,6 @@ h4{
 }
 .probando{
     display: flex;
-}
-.gridRegistro{
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: repeat(3,auto);
-    grid-template-areas: 
-    "nav nav nav"
-    "foto form ref"
-    "pie pie pie";
 }
 .ulNav{
     grid-area: nav
@@ -827,4 +535,4 @@ footer{
     border-color: black;
     padding-left: 3px;
     margin-right: 27rem;
-}
+} 
