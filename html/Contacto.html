@@ -11,29 +11,40 @@
 </head>
 
 <body>
-    <nav class="ulNav conteiner">
-        <a href="../index.html">
-            <img src="../img/logo.png" alt="HardShop">
-        </a>
-        <div>
-            <ul class="conteiner margin">
-
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid ">
+        <div class="logo">
+            <a href="../index.html" class="HardShop">
+                <img src="../img/logo.png" alt="HardShop">
+            </a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="fs-1 conteiner me-1 me-auto">
                 <li>
-                    <a href="Registro.html">Registro</a>
+                    <a class="me-5" href="Registro.html">Registro</a>
                 </li>
                 <li>
-                    <a href="Acerca-de.html">Acerca de</a>
+                    <a class="me-5"  href="Acerca-de.html">Acerca de</a>
                 </li>
                 <li>
-                    <a href="Privacidad.html">Privacidad</a>
+                    <a class="me-5"  href="Privacidad.html">Privacidad</a>
                 </li>
                 <li>
-                    <a href="Contacto.html">Contacto</a>
+                    <a class="me-5" href="Contacto.html">Contacto</a>
                 </li>
             </ul>
+          
+            <form class="d-flex inputBusqueda" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
         </div>
-
-    </nav>
+          
+        </div>
+      </nav>
 
     <main>
         <h1>Contacto</h1>

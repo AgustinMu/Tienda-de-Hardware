@@ -27,41 +27,30 @@ html{
     font-size: 62.5%;
 }
 
-.ulNav{
-    background-color: rgb(28, 28, 28, 0.95);
-    padding: auto;
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
-    border: 3px;
-    border-color: seashell;
-    border-style: solid;
-    display: flex;
-    justify-content: space-between;
-}
-
-.ulNav ul li {
-    display: inline-block;
-    color:white;
-    margin-right: 4rem;
-    margin: 20px;
-}
+/* .ulNav ul li {
+        display: inline-block;
+        color:white;
+        margin-right: 4rem;
+        margin: 20px;
+} 
 Nav ul li a{
-    margin-right: 3rem;
+    margin-right: 3.5rem;
     color: white;
     line-height: 3rem;
     font-size: 3.8rem;
     text-decoration: none;
     font-family: 'Mouse Memoirs', sans-serif ;
-}
+} */
 
 .btn{
     width: 10rem;
     height: 4rem;
 }
+.logo{
+    margin-right: 5rem;
+}
 .form-control{
-    width: 30rem;
+    width: 20rem;
     height: 4rem;
 }
 
@@ -836,4 +825,4 @@ footer{
     border-color: black;
     padding-left: 3px;
     margin-right: 27rem;
-}
+} 
