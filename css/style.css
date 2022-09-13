@@ -447,10 +447,9 @@ h4{
     grid-area: header;
 }
 .categorias{
-    padding-bottom:  auto;
+    /* padding-bottom:  auto; */
     grid-area: cat;
     margin-top: 22.5rem;
-    margin-left: 2rem;
     margin-bottom: 73.9rem;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px 
@@ -536,3 +535,7 @@ footer{
     padding-left: 3px;
     margin-right: 27rem;
 } 
+article img{
+    border: none !important;
+    background: none !important;
+}
