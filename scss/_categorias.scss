@@ -1,0 +1,28 @@
+.categorias{
+    grid-area: cat;
+    margin-top: 22.5rem;
+    margin-bottom: 73.9rem;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px 
+    
+}
+.formCategorias{
+    background-color: white;
+    justify-content:flex-start ;
+    font-size: 3rem;
+    background: rgb(48,48,48);
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(172,171,175,1) 50%, rgba(55,53,53,1) 100%);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.b{
+    flex-direction: column;
+}
+.contenidoCategorias{  
+    
+    font-size: 1.5rem;
+    color: black;
+    flex-direction: column;
+    width: 20%;
+    
+}

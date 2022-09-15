@@ -1,0 +1,21 @@
+.redes{
+    justify-content: center;
+    border: 7px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(28, 28, 28);
+    width: auto;
+    margin-top: 20%;
+} 
+.conteiner{
+    display: flex;
+}
+.separarImgRedes{
+    margin-right: 1rem;
+}
+.acercaDeFooter {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0%;
+    justify-content: center;
+}
