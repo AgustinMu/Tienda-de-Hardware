@@ -1,0 +1,284 @@
+
+//VARS
+
+$backgroundImg:url(../img/gray-abstraction-geometric-background-material-design-stylish-gray-background.jpg);
+
+
+
+*{
+     
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;}
+    
+h1{
+    color: rgba(0, 0, 0, 0);
+    font-size: 7rem;
+    justify-content: right;
+}
+body{
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-image:$backgroundImg; 
+}
+html{
+    font-size: 62.5%;
+}
+
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+}
+
+.form-control{
+    width: 20rem;
+    height: 4rem;
+}
+.categorias{
+    
+    grid-area: cat;
+    margin-top: 22.5rem;
+    margin-bottom: 73.9rem;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px 
+    
+}
+formCategorias{
+    background-color: white;
+    justify-content:flex-start ;
+    font-size: $tresRem;
+    background: rgb(48,48,48);
+    background: linear-gradient(90deg, rgb(48,48,48) 0%, rgba(172,171,175,1) 50%, rgba(55,53,53,1) 100%);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.b{
+    flex-direction: column;
+}
+.contenidoCategorias{  
+    
+    font-size: $SMrem;
+    color: black;
+    flex-direction: column;
+    width: 20%;
+    
+}
+.MasRelevante{
+    text-align: center;
+}
+.article{
+    flex-direction: row;
+    padding: $dosrem;
+    flex-wrap: wrap;
+}
+.img{
+    img{
+    width: 50rem;
+    height: 50rem; 
+    }
+}
+//ARTICULOS
+.discoRigido{
+    position: auto;
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color:$secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.scale{ 
+    &:hover{
+        transform: scaleX(1.05);
+        transition: transform 0.5s;
+    }
+}
+.AgregarAlCarroDisco{
+    margin-bottom: $tresRem;
+}
+.fuenteDePoder{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.gabinete{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.cpu{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.cpuImg{
+    width: 50rem;
+    padding-top: 20px;
+}
+.AgregarAlCarroProcesador{
+    margin-bottom: $tresRem;
+}
+.mouse{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.refriLiquida{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.AgregarAlCarroRefri{
+    margin-bottom: $tresRem;
+}
+.ssd{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.AgregarAlCarroSSD{
+    margin-bottom: $tresRem;
+}
+.gpu{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.ram{
+    width: 50rem;
+    height: auto;
+    margin: 50px auto;
+    padding: auto;
+    background-color: $secondColor;
+    border: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.AgregarAlCarroGPU{
+    margin-bottom: $tresRem;
+}
+@keyframes Animacion{
+    0%{color: rgb(255, 255, 255);}
+    25%{color: rgb(255, 255, 255);}
+    50%{color: rgb(94, 42, 42);}
+    75%{color: rgb(255, 255, 255);}
+    100%{color: rgb(0, 0, 0);}
+ }
+.animacion{
+    animation-name: Animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+article{
+     img{
+    border: none !important;
+    background: none !important;
+    }    
+}   
+.pArticle{
+    color: white;
+}
+.AgregarAlCarroGPU{
+    margin-bottom: $tresRem;
+}
+.AgregarAlCarroDisco{
+    margin-bottom: $tresRem;
+}
+.AgregarAlCarroProcesador{
+    margin-bottom: $tresRem;
+}
+.AgregarAlCarroRefri{
+    margin-bottom: $tresRem;
+}
+.AgregarAlCarroSSD{
+    margin-bottom: $tresRem;
+}
+.AgregarAlCarroGPU{
+    margin-bottom: $tresRem;
+}
+.AgregarAlCarro{
+    width: 19rem;
+    height: 5rem;
+    color: white;
+    font-size: 3rem;
+    margin-top: 5rem;
+    background: rgb(24,24,24);
+    background: linear-gradient(90deg, rgba(24,24,24,1) 0%, rgba(134,134,135,1) 50%, rgba(9,9,9,1) 100%);
+    border-radius: 10px;
+    border-color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+main { 
+    article{
+        text-align: center;
+    }
+    section {
+        p{
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 1.7rem;
+            line-height: $dosrem;
+        }
+        article {
+            width: auto;
+            height: auto;
+            border-style: double;
+        }
+            P{
+                color: rgb(0, 0, 0);
+                font-size: $tresRem;
+                line-height: 3.5rem;
+        }
+    }
+}
+//FIN ARTICULOS
+p {
+    margin-top: 0;
+    margin-bottom: $XSrem;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+}
+

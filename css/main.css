@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mouse+Memoirs&family=PT+Sans+Narrow&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0);
+  font-size: 7rem;
+  justify-content: right;
+}
+
+body {
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-image: url(../img/gray-abstraction-geometric-background-material-design-stylish-gray-background.jpg);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.btn {
+  width: 10rem;
+  height: 4rem;
+}
+
+.form-control {
+  width: 20rem;
+  height: 4rem;
+}
+
+.categorias {
+  grid-area: cat;
+  margin-top: 22.5rem;
+  margin-bottom: 73.9rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+formCategorias {
+  background-color: white;
+  justify-content: flex-start;
+  font-size: 3rem;
+  background: rgb(48, 48, 48);
+  background: linear-gradient(90deg, rgb(48, 48, 48) 0%, rgb(172, 171, 175) 50%, rgb(55, 53, 53) 100%);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.b {
+  flex-direction: column;
+}
+
+.contenidoCategorias {
+  font-size: 1.5rem;
+  color: black;
+  flex-direction: column;
+  width: 20%;
+}
+
+.MasRelevante {
+  text-align: center;
+}
+
+.article {
+  flex-direction: row;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.img img {
+  width: 50rem;
+  height: 50rem;
+}
+
+.discoRigido {
+  position: auto;
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.scale:hover {
+  transform: scaleX(1.05);
+  transition: transform 0.5s;
+}
+
+.AgregarAlCarroDisco {
+  margin-bottom: 3rem;
+}
+
+.fuenteDePoder {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.gabinete {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cpu {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cpuImg {
+  width: 50rem;
+  padding-top: 20px;
+}
+
+.AgregarAlCarroProcesador {
+  margin-bottom: 3rem;
+}
+
+.mouse {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.refriLiquida {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.AgregarAlCarroRefri {
+  margin-bottom: 3rem;
+}
+
+.ssd {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.AgregarAlCarroSSD {
+  margin-bottom: 3rem;
+}
+
+.gpu {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.ram {
+  width: 50rem;
+  height: auto;
+  margin: 50px auto;
+  padding: auto;
+  background-color: rgb(72, 69, 69);
+  border: auto;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.AgregarAlCarroGPU {
+  margin-bottom: 3rem;
+}
+
+@keyframes Animacion {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    color: rgb(94, 42, 42);
+  }
+  75% {
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    color: rgb(0, 0, 0);
+  }
+}
+.animacion {
+  animation-name: Animacion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+article img {
+  border: none !important;
+  background: none !important;
+}
+
+.pArticle {
+  color: white;
+}
+
+.AgregarAlCarroGPU {
+  margin-bottom: 3rem;
+}
+
+.AgregarAlCarroDisco {
+  margin-bottom: 3rem;
+}
+
+.AgregarAlCarroProcesador {
+  margin-bottom: 3rem;
+}
+
+.AgregarAlCarroRefri {
+  margin-bottom: 3rem;
+}
+
+.AgregarAlCarroSSD {
+  margin-bottom: 3rem;
+}
+
+.AgregarAlCarroGPU {
+  margin-bottom: 3rem;
+}
+
+.AgregarAlCarro {
+  width: 19rem;
+  height: 5rem;
+  color: white;
+  font-size: 3rem;
+  margin-top: 5rem;
+  background: rgb(24, 24, 24);
+  background: linear-gradient(90deg, rgb(24, 24, 24) 0%, rgb(134, 134, 135) 50%, rgb(9, 9, 9) 100%);
+  border-radius: 10px;
+  border-color: rgb(95, 94, 94);
+  cursor: pointer;
+}
+
+main article {
+  text-align: center;
+}
+main section p {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2rem;
+}
+main section article {
+  width: auto;
+  height: auto;
+  border-style: double;
+}
+main section P {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+}
+
+.conteiner {
+  display: flex;
+}
+
+.main {
+  grid-area: main;
+  margin-bottom: 30rem;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.btn {
+  width: 10rem;
+  height: 4rem;
+}
+
+.carouselScss {
+  width: 100%;
+}
+
+.redes {
+  justify-content: center;
+  border: 7px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(28, 28, 28);
+  width: auto;
+  margin-top: 20%;
+}
+
+.conteiner {
+  display: flex;
+}
+
+.separarImgRedes {
+  margin-right: 1rem;
+}
+
+.acercaDeFooter {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0%;
+  justify-content: center;
+}
+
+.categorias {
+  grid-area: cat;
+  margin-top: 22.5rem;
+  margin-bottom: 73.9rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.formCategorias {
+  background-color: white;
+  justify-content: flex-start;
+  font-size: 3rem;
+  background: rgb(48, 48, 48);
+  background: linear-gradient(90deg, rgb(48, 48, 48) 0%, rgb(172, 171, 175) 50%, rgb(55, 53, 53) 100%);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.b {
+  flex-direction: column;
+}
+
+.contenidoCategorias {
+  font-size: 1.5rem;
+  color: black;
+  flex-direction: column;
+  width: 20%;
+}
+
+/*# sourceMappingURL=main.css.map */
