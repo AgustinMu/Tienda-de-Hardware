@@ -275,90 +275,79 @@ h2 {
 
 //ACERCA DE
 
-section{
-    p{
-        .nuestroProposito{
-            font-size: 7rem;
-            line-height: 8rem;
-            text-align: center;
-            background-color: rgb(140, 137, 137);
-            height: auto;
-            margin-top: auto;
-            padding-top: auto;
-        }
-    }
-    p{
-        .parrafoNuestroProposito{
-            font-size: 3rem;
-            line-height: 4.5rem;
-            text-align: center;
-            display: inline-block;
-            background-color: rgb(46, 46, 46);
-        }
-    }
-    div{
-        .imgNuestroProposito{
-            width: auto;
-            justify-content: center;
-            background-color: black;
-        }
-        .text-center{
-            text-align: center;
-            display: flex;
-            justify-content: center;
-        }
-        .conteiner{
-            display: flex;
-        }
-        img{
-            .imgNuestroProposito{
-                width: auto;
-                justify-content: center;
-                background-color: black;
-            }
-        }
 
-    }
-    p{
-        .pPoliticaDePrivacidad{
-            width: 100%;
-            height: auto;
-            flex-direction: row;
-            justify-content: center;
-        }
-        .text-center{
-            text-align: center;
-            display: flex;
-            justify-content: center;
-        }
-        .conteiner{
-            display: flex;
-        }
-    }
-    h3{
-        .h3{
-            font-size: 3.5rem;
-        }
-        .conteiner{
-            display: flex;
-        }
-    }
-    div{
-        .conteiner{
-            display: flex;
-        }
-        iframe{
-            .text-center{
-                text-align: center;
-                display: flex;
-                justify-content: center;
-            }
-            .map{
-                display: inline-block;
-                width: 100%;
-            }
-
-        }
-    }
-
+    
+.nuestroProposito{
+    font-size: 7rem;
+    line-height: 8rem;
+    text-align: center;
+    background-color: rgb(140, 137, 137);
+    height: auto;
+    margin-top: auto;
+    padding-top: auto;
 }
+.parrafoNuestroProposito{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(46, 46, 46);
+} 
+.imgNuestroProposito{
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+.text-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    display: flex;
+}
+.pPoliticaDePrivacidad{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    display: flex;
+}
+.h3{
+    font-size: 3.5rem;
+}
+.conteiner{
+    display: flex;
+}
+.conteiner{
+    display: flex;
+}     
+.text-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.map{
+    display: inline-block;
+    width: 100%;
+}
+
+        
+    
+
+
+//FIN ACERCA DE
+
+
+
+
+
+
+//CONTACTO
