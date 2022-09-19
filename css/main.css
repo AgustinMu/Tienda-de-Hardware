@@ -290,7 +290,7 @@ h2 {
   font-size: 5rem;
 }
 
-section p .nuestroProposito {
+.nuestroProposito {
   font-size: 7rem;
   line-height: 8rem;
   text-align: center;
@@ -299,60 +299,67 @@ section p .nuestroProposito {
   margin-top: auto;
   padding-top: auto;
 }
-section p .parrafoNuestroProposito {
+
+.parrafoNuestroProposito {
   font-size: 3rem;
   line-height: 4.5rem;
   text-align: center;
   display: inline-block;
   background-color: rgb(46, 46, 46);
 }
-section div .imgNuestroProposito {
-  width: auto;
+
+.imgNuestroProposito {
+  width: 100%;
   justify-content: center;
   background-color: black;
 }
-section div .text-center {
+
+.text-center {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-section div .conteiner {
+
+.conteiner {
   display: flex;
 }
-section div img .imgNuestroProposito {
-  width: auto;
-  justify-content: center;
-  background-color: black;
-}
-section p .pPoliticaDePrivacidad {
+
+.pPoliticaDePrivacidad {
   width: 100%;
   height: auto;
   flex-direction: row;
   justify-content: center;
 }
-section p .text-center {
+
+.text-center {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-section p .conteiner {
+
+.conteiner {
   display: flex;
 }
-section h3 .h3 {
+
+.h3 {
   font-size: 3.5rem;
 }
-section h3 .conteiner {
+
+.conteiner {
   display: flex;
 }
-section div .conteiner {
+
+.conteiner {
   display: flex;
 }
-section div iframe .text-center {
+
+.text-center {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-section div iframe .map {
+
+.map {
   display: inline-block;
   width: 100%;
 }
