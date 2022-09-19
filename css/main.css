@@ -78,7 +78,6 @@ formCategorias {
 
 .discoRigido {
   position: auto;
-  width: 50rem;
   height: auto;
   margin: 50px auto;
   padding: auto;
@@ -98,8 +97,6 @@ formCategorias {
 }
 
 .fuenteDePoder {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -109,8 +106,6 @@ formCategorias {
 }
 
 .gabinete {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -120,8 +115,6 @@ formCategorias {
 }
 
 .cpu {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -140,8 +133,6 @@ formCategorias {
 }
 
 .mouse {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -151,8 +142,6 @@ formCategorias {
 }
 
 .refriLiquida {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -166,8 +155,6 @@ formCategorias {
 }
 
 .ssd {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -181,8 +168,6 @@ formCategorias {
 }
 
 .gpu {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -192,8 +177,6 @@ formCategorias {
 }
 
 .ram {
-  width: 50rem;
-  height: auto;
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -305,6 +288,73 @@ h2 {
   text-align: center;
   font-family: "Bebas Neue", cursive;
   font-size: 5rem;
+}
+
+section p .nuestroProposito {
+  font-size: 7rem;
+  line-height: 8rem;
+  text-align: center;
+  background-color: rgb(140, 137, 137);
+  height: auto;
+  margin-top: auto;
+  padding-top: auto;
+}
+section p .parrafoNuestroProposito {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(46, 46, 46);
+}
+section div .imgNuestroProposito {
+  width: auto;
+  justify-content: center;
+  background-color: black;
+}
+section div .text-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+section div .conteiner {
+  display: flex;
+}
+section div img .imgNuestroProposito {
+  width: auto;
+  justify-content: center;
+  background-color: black;
+}
+section p .pPoliticaDePrivacidad {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+}
+section p .text-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+section p .conteiner {
+  display: flex;
+}
+section h3 .h3 {
+  font-size: 3.5rem;
+}
+section h3 .conteiner {
+  display: flex;
+}
+section div .conteiner {
+  display: flex;
+}
+section div iframe .text-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+section div iframe .map {
+  display: inline-block;
+  width: 100%;
 }
 
 .conteiner {

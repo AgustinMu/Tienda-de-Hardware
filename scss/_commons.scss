@@ -4,7 +4,7 @@
 $backgroundImg:url(../img/gray-abstraction-geometric-background-material-design-stylish-gray-background.jpg);
 
 
-
+//INDEX
 *{
      
     padding: 0;
@@ -82,7 +82,6 @@ formCategorias{
 //ARTICULOS
 .discoRigido{
     position: auto;
-    width: 50rem;
     height: auto;
     margin: 50px auto;
     padding: auto;
@@ -101,8 +100,6 @@ formCategorias{
     margin-bottom: $tresRem;
 }
 .fuenteDePoder{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -111,8 +108,6 @@ formCategorias{
     border-bottom-left-radius: 10px ;
 }
 .gabinete{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -121,8 +116,6 @@ formCategorias{
     border-bottom-left-radius: 10px ;
 }
 .cpu{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -138,8 +131,6 @@ formCategorias{
     margin-bottom: $tresRem;
 }
 .mouse{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -148,8 +139,6 @@ formCategorias{
     border-bottom-left-radius: 10px ;
 }
 .refriLiquida{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -161,8 +150,6 @@ formCategorias{
     margin-bottom: $tresRem;
 }
 .ssd{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -174,8 +161,6 @@ formCategorias{
     margin-bottom: $tresRem;
 }
 .gpu{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -184,8 +169,6 @@ formCategorias{
     border-bottom-left-radius: 10px ;
 }
 .ram{
-    width: 50rem;
-    height: auto;
     margin: 50px auto;
     padding: auto;
     background-color: $secondColor;
@@ -282,3 +265,100 @@ h2 {
     font-size: 5rem;
 }
 
+//INDEX
+
+
+
+
+
+
+
+//ACERCA DE
+
+section{
+    p{
+        .nuestroProposito{
+            font-size: 7rem;
+            line-height: 8rem;
+            text-align: center;
+            background-color: rgb(140, 137, 137);
+            height: auto;
+            margin-top: auto;
+            padding-top: auto;
+        }
+    }
+    p{
+        .parrafoNuestroProposito{
+            font-size: 3rem;
+            line-height: 4.5rem;
+            text-align: center;
+            display: inline-block;
+            background-color: rgb(46, 46, 46);
+        }
+    }
+    div{
+        .imgNuestroProposito{
+            width: auto;
+            justify-content: center;
+            background-color: black;
+        }
+        .text-center{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .conteiner{
+            display: flex;
+        }
+        img{
+            .imgNuestroProposito{
+                width: auto;
+                justify-content: center;
+                background-color: black;
+            }
+        }
+
+    }
+    p{
+        .pPoliticaDePrivacidad{
+            width: 100%;
+            height: auto;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .text-center{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .conteiner{
+            display: flex;
+        }
+    }
+    h3{
+        .h3{
+            font-size: 3.5rem;
+        }
+        .conteiner{
+            display: flex;
+        }
+    }
+    div{
+        .conteiner{
+            display: flex;
+        }
+        iframe{
+            .text-center{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            .map{
+                display: inline-block;
+                width: 100%;
+            }
+
+        }
+    }
+
+}
