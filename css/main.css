@@ -478,7 +478,7 @@ h2 {
   height: 3rem;
   display: flex;
   align-items: center;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .input2Privacidad {
@@ -486,7 +486,7 @@ h2 {
   height: 3rem;
   display: flex;
   align-items: center;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .labelNotificaciones {
@@ -507,12 +507,14 @@ h2 {
 .imgTarjetas {
   display: inline-block;
   width: 50%;
+  justify-content: center;
+  border: solid 15px;
+  border-color: rgb(0, 0, 0);
 }
 
 .tarjetas {
   margin-left: 3rem;
   display: block;
-  margin-bottom: 10rem;
   font-size: 4rem;
   padding-right: 0%;
   vertical-align: middle;
@@ -524,10 +526,15 @@ h2 {
   font-weight: 800;
   font-size: 3rem;
   color: white;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .imgTransferencia {
   display: inline-block;
+  width: 50%;
+  border: solid 15px;
+  border-color: rgb(0, 0, 0);
 }
 
 .transferencia {
@@ -544,6 +551,9 @@ h2 {
   font-weight: 800;
   font-size: 3rem;
   color: white;
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .mp4 {
