@@ -47,11 +47,13 @@
         </div>
       </nav>
 
-    <main class="conteiner">
+    <main class="">
     <div class="fotoDePerfil">    
         <h1>Registro</h1>
         <h2 class="fotoDePerfilH2">Foto de Perfil</h2>
-        <img src="../img/Admin-Profile-PNG-Isolated-Pic.png" alt="Imagen-de-perfil" class="imgFotoDePerfil">
+       <div class="d-flex text-center">
+        <img src="../img/Admin-Profile-PNG-Isolated-Pic.png" alt="Imagen-de-perfil" class="imgFotoDePerfil text-center">
+       </div>
         <textarea name="Descripcion" id="Descripcion" cols="100" rows="4" placeholder="Descripcion del perfil" class="textAreaRegistro"></textarea>
     </div>
     <div class="text-center formRegistro">
@@ -71,12 +73,13 @@
                 </form>
             </section>
     </div>
-    <aside> 
-      <div class="referidos d-inline-block">
+    <aside class="referidos"> 
+      
         <h2>Codigo de referidos:</h2>
-        <p class="codigo">24871-RthYn</p>
-        <input type="button" value="Copiar" class="codigoButton">
-      </div>
+        <p class="codigo d-flex">24871-RthYn</p>
+       <!-- <div>
+        <input type="button" value="Copiar" class="codigoButton d-flex ">
+       </div>     -->
     </aside>
     </main>
     <footer class="redes conteiner footer">

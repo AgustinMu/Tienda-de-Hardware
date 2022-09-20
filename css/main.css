@@ -362,8 +362,6 @@ h2 {
 .fotoDePerfil {
   border-style: groove;
   border-color: black;
-  flex-direction: column;
-  margin-left: 1rem;
 }
 
 .fotoDePerfilH2 {
@@ -372,14 +370,14 @@ h2 {
 
 .imgFotoDePerfil {
   justify-content: center;
-  margin-left: 10rem;
+  width: 25%;
 }
 
 .formRegistro {
   border-style: groove;
   border-color: black;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
 }
 
 .registro {
@@ -402,29 +400,27 @@ h2 {
 }
 
 .referidos {
-  grid-area: ref;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   border-style: groove;
   border-color: black;
-  padding-left: 3px;
-  height: 100%;
-  margin-right: 1rem;
+  width: 100%;
 }
 
 .codigo {
-  display: flex;
   font-size: 5.5rem;
+  justify-content: center;
+  background-color: white;
 }
 
 .codigoButton {
+  display: inline-block;
+  justify-content: center;
   font-size: 4rem;
-  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .textAreaRegistro {
-  margin-right: -15rem;
+  width: 100%;
   font-size: 1.5rem;
 }
 
