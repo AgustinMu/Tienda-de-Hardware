@@ -47,35 +47,46 @@
         </div>
       </nav>
 
-    <main>
-        <p class="privacidad conteiner"><strong>Privacidad:</strong></p>
-        
+    <main class="mainPrivacidad">
+        <div class="divH2Privacidad">
+        <h2 class="privacidad conteiner">Privacidad:</h2>
+        </div>
         <section class="conteiner">
-            <form class="formPrivacidad" action="Guardado-de-Privacidad.php">
+            <form class="formPrivacidad w-100" action="Guardado-de-Privacidad.php">
             <div class="activarDesactivar">
-                <p class="labelNotificaciones ">Activar o desactivar notificaciones:</p>
-                <input type="button" value="Activar" class="input  ">
-                <input type="button" value="Desactivar" class="input2  ">
+                <p class="labelNotificaciones ">Activar o desactivar recomendaciones de compra en la pagina:</p>
+                <input type="button" value="Activar" class="inputPrivacidad">
+                <input type="button" value="Desactivar" class="input2Privacidad">
             </div>
             <section class="metodosDePago1">
                 <h4 class="metodosDePago">
                     Metodos de pago:
                 </h4>
-                <div class=" imgTarjetas ">
-                    <img src="../img/tarjetas de credito.jpg" alt="Tarjetas de credito" >
-                </div>
-                <div class="tarjetas">
+               <div>
+                 
+                 <div class="tarjetas">
                     <p class="tarjetasP">Tarjetas de credito o debito:</p> 
-                </div>  
-                <div class="img">
-                    <img  class="imgTransferencia" src="../img/transferencia.jpg" alt="transferencia bancaria">
-                </div>
-                <div class="transferencia">
+                 </div>
+
+                 <div class=" imgTarjetas ">
+                    <img src="../img/cartel-en-logos-de-tarjetas-de-credito-bancarias-en-la-automatizacion-de-la-maquina-cajero-automatico-de-kbc-bank-flandes-belgica-cn18gn.jpg" alt="Tarjetas de credito" class="imgTarjetas">
+                 </div>
+
+               </div>
+               <div>  
+                 
+                 <div class="transferencia d-flex">
                     <p class="transferenciaP">Transferencia bancaria</p>
-                </div>
-                <div class="conteiner">
+                 </div>
+
+                 <div class="img d-flex">
+                    <img  class="imgTransferencia" src="../img/transferencia.jpg" alt="transferencia bancaria">
+                 </div>
+
+               </div>
+                <!-- <div class="conteiner">
                     <iframe src="../img/1084866937-preview.mp4" frameborder="0" class="mp4"></iframe>
-                </div>
+                </div> -->
             </section>       
         </form>
 

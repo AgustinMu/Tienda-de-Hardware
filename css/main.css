@@ -360,9 +360,10 @@ h2 {
 }
 
 .fotoDePerfil {
-  border-style: double;
-  grid-area: foto;
+  border-style: groove;
+  border-color: black;
   flex-direction: column;
+  margin-left: 1rem;
 }
 
 .fotoDePerfilH2 {
@@ -371,13 +372,14 @@ h2 {
 
 .imgFotoDePerfil {
   justify-content: center;
+  margin-left: 10rem;
 }
 
 .formRegistro {
-  grid-area: form;
   border-style: groove;
   border-color: black;
   flex-direction: column;
+  width: 80%;
 }
 
 .registro {
@@ -387,7 +389,7 @@ h2 {
 }
 
 .input {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -396,6 +398,7 @@ h2 {
   justify-content: center;
   display: inline-block;
   margin-top: 20px;
+  margin-left: 9rem;
 }
 
 .referidos {
@@ -406,7 +409,8 @@ h2 {
   border-style: groove;
   border-color: black;
   padding-left: 3px;
-  margin-right: 27rem;
+  height: 100%;
+  margin-right: 1rem;
 }
 
 .codigo {
@@ -417,6 +421,11 @@ h2 {
 .codigoButton {
   font-size: 4rem;
   margin-left: 5rem;
+}
+
+.textAreaRegistro {
+  margin-right: -15rem;
+  font-size: 1.5rem;
 }
 
 .footerContacto {
@@ -439,6 +448,106 @@ h2 {
 
 .form-control {
   width: 20rem;
+}
+
+.mainPrivacidad {
+  background-color: rgb(28, 28, 28);
+}
+
+.divH2Privacidad {
+  border-bottom: solid;
+  border-color: white;
+}
+
+.privacidad {
+  justify-content: center;
+  font-size: 7rem;
+  color: white;
+}
+
+.activarDesactivar {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border: solid;
+  border: rgb(0, 0, 0);
+}
+
+.inputPrivacidad {
+  width: 20%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.input2Privacidad {
+  width: 20%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.labelNotificaciones {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.metodosDePago {
+  margin-bottom: 5.5rem;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.imgTarjetas {
+  display: inline-block;
+  width: 50%;
+}
+
+.tarjetas {
+  margin-left: 3rem;
+  display: block;
+  margin-bottom: 10rem;
+  font-size: 4rem;
+  padding-right: 0%;
+  vertical-align: middle;
+  vertical-align: 150%;
+}
+
+.tarjetasP {
+  display: block;
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+}
+
+.imgTransferencia {
+  display: inline-block;
+}
+
+.transferencia {
+  margin-left: 3rem;
+  display: inline-flex;
+  margin-bottom: 10rem;
+  font-size: 4rem;
+  padding-right: 0%;
+  vertical-align: middle;
+  vertical-align: 150%;
+}
+
+.transferenciaP {
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+}
+
+.mp4 {
+  justify-content: center;
 }
 
 .conteiner {
