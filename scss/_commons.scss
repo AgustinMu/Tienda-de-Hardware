@@ -342,8 +342,78 @@ h2 {
 //FIN ACERCA DE
 
 
+//REGISTRO
+.fotoDePerfil{
+    border-style: double;
+    grid-area: foto;
+    flex-direction: column;
+}
+.fotoDePerfilH2{
+    justify-content: center;
+}
+.imgFotoDePerfil{
+    justify-content: center;
+}
+.formRegistro{
+    grid-area: form;
+    border-style: groove;
+    border-color: black;
+    flex-direction: column;
+}
+.registro{
+    margin-top: 20px;
+    font-size: 4rem;
+    flex-direction: column;
+}
+.input{
+    width: 50%;
+    height: auto;
+}
+.input2{
+    width: 20rem;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+.referidos{
+    grid-area: ref;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: groove;
+    border-color: black;
+    padding-left: 3px;
+    margin-right: 27rem;
+} 
+.codigo{
+    display: flex;
+    font-size: 5.5rem;
+}
+.codigoButton{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
 
+
+//FIN REGISTRO
 
 
 
 //CONTACTO
+.footerContacto{
+    margin-top: auto;
+}
+.fs-50{
+    margin-top: 10rem;
+    font-size: 5rem;
+}
+.contacto{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.inputContacto{
+    width: 35rem;
+}
+.form-control{
+    width: 20rem;
+}
