@@ -41,7 +41,7 @@ html {
 }
 
 formCategorias {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   justify-content: flex-start;
   font-size: 3rem;
   background: rgb(48, 48, 48);
@@ -50,15 +50,15 @@ formCategorias {
   border-bottom-left-radius: 10px;
 }
 
-.b {
+.b, .contenidoCategorias {
   flex-direction: column;
 }
 
 .contenidoCategorias {
   font-size: 1.5rem;
-  color: black;
   flex-direction: column;
   width: 20%;
+  color: rgb(0, 0, 0);
 }
 
 .MasRelevante {
@@ -79,12 +79,6 @@ formCategorias {
 .discoRigido {
   position: auto;
   height: auto;
-  margin: 50px auto;
-  padding: auto;
-  background-color: rgb(72, 69, 69);
-  border: auto;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 .scale:hover {
@@ -96,7 +90,7 @@ formCategorias {
   margin-bottom: 3rem;
 }
 
-.fuenteDePoder {
+.fuenteDePoder, .discoRigido {
   margin: 50px auto;
   padding: auto;
   background-color: rgb(72, 69, 69);
@@ -208,7 +202,7 @@ formCategorias {
 }
 .animacion {
   animation-name: Animacion;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -219,7 +213,7 @@ article img {
 }
 
 .pArticle {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .AgregarAlCarroGPU {
@@ -249,7 +243,7 @@ article img {
 .AgregarAlCarro {
   width: 19rem;
   height: 5rem;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 3rem;
   margin-top: 5rem;
   background: rgb(24, 24, 24);
@@ -291,6 +285,8 @@ h2 {
 }
 
 .nuestroProposito {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
   font-size: 7rem;
   line-height: 8rem;
   text-align: center;
@@ -311,7 +307,7 @@ h2 {
 .imgNuestroProposito {
   width: 100%;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
 .text-center {
@@ -329,10 +325,6 @@ h2 {
   height: auto;
   flex-direction: row;
   justify-content: center;
-}
-
-.conteiner {
-  display: flex;
 }
 
 .h3 {
@@ -359,23 +351,20 @@ h2 {
   margin: auto;
 }
 
-.fotoDePerfil {
+.fotoDePerfil, .formRegistro {
   border-style: groove;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
 }
 
-.fotoDePerfilH2 {
+.fotoDePerfilH2, .imgFotoDePerfil {
   justify-content: center;
 }
 
 .imgFotoDePerfil {
-  justify-content: center;
   width: 25%;
 }
 
 .formRegistro {
-  border-style: groove;
-  border-color: black;
   flex-direction: column;
   width: 100%;
 }
@@ -401,14 +390,14 @@ h2 {
 
 .referidos {
   border-style: groove;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   width: 100%;
 }
 
 .codigo {
   font-size: 5.5rem;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .codigoButton {
@@ -452,19 +441,20 @@ h2 {
 
 .divH2Privacidad {
   border-bottom: solid;
-  border-color: white;
+  border-color: rgb(255, 255, 255);
 }
 
 .privacidad {
   justify-content: center;
   font-size: 7rem;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 
 .activarDesactivar {
   display: flex;
   width: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: solid;
   border: rgb(0, 0, 0);
 }
@@ -493,19 +483,23 @@ h2 {
 
 .metodosDePago {
   margin-bottom: 5.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 5rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 1rem;
 }
 
 .imgTarjetas {
-  display: inline-block;
+  display: inline-block width 50%;
   width: 50%;
   justify-content: center;
   border: solid 15px;
   border-color: rgb(0, 0, 0);
+  display: flex;
+  direction: colum;
+  align-items: center;
+  justify-content: center;
 }
 
 .tarjetas {
@@ -516,12 +510,15 @@ h2 {
 }
 
 .tarjetasP {
-  display: block;
   font-weight: 800;
   font-size: 3rem;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: 3rem;
   margin-top: 3rem;
+  display: flex;
+  direction: colum;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgTransferencia {
@@ -544,13 +541,13 @@ h2 {
 .transferenciaP {
   font-weight: 800;
   font-size: 3rem;
-  color: white;
+  color: rgb(255, 255, 255);
   width: 100%;
   margin-bottom: 3rem;
   margin-top: 3rem;
-}
-
-.mp4 {
+  display: flex;
+  direction: colum;
+  align-items: center;
   justify-content: center;
 }
 
@@ -609,7 +606,7 @@ h2 {
 }
 
 .formCategorias {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   justify-content: flex-start;
   font-size: 3rem;
   background: rgb(48, 48, 48);
@@ -618,14 +615,13 @@ h2 {
   border-bottom-left-radius: 10px;
 }
 
-.b {
+.b, .contenidoCategorias {
   flex-direction: column;
 }
 
 .contenidoCategorias {
   font-size: 1.5rem;
-  color: black;
-  flex-direction: column;
+  color: rgb(0, 0, 0);
   width: 20%;
 }
 

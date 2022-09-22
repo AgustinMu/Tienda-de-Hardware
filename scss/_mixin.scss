@@ -1,0 +1,16 @@
+@mixin center($direction , $just , $aling) {
+    display: flex;
+    direction: $direction;
+    align-items: $aling;
+    justify-content: $just;
+}
+$colores:(
+    'uno': rgb(28, 28, 28),
+    'dos': rgb(46, 46, 46),
+    'tres': rgb(140, 137, 137),
+    'cuatro': rgb(95, 94, 94),
+    'cinco': rgb(255 ,255 ,255),
+    'seis': rgb(0 ,0 ,0),
+    'siete': rgb(24 ,24 ,24),
+    'ocho': rgb(48 ,48 ,48),
+)
