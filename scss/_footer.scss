@@ -2,8 +2,8 @@
     justify-content: center;
     border: 7px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(28, 28, 28);
+    border-color: map-get($map: $colores, $key:seis );
+    background-color: map-get($map: $colores, $key:uno );
     width: auto;
     //margin-top: 20%;
 } 
