@@ -337,7 +337,10 @@ h2 {
 
 
 //REGISTRO
+
+
 .fotoDePerfil{
+    flex-direction: column;
     border-style: groove;
     border-color: map-get($map: $colores, $key:seis );
 }
@@ -349,25 +352,34 @@ h2 {
     @extend .fotoDePerfilH2   
 }
 .formRegistro{
-    flex-direction: column;
+    
     width: 100%;
     @extend .fotoDePerfil
 }
 .registro{
-    margin-top: 20px;
+    justify-content: center;
     font-size: 4rem;
     flex-direction: column;
 }
 .input{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    margin-bottom: 1.5%;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: black;
+    text-align: center;
 }
 .input2{
-    width: 20rem;
+    width: 20%;
     justify-content: center;
-    display: inline-block;
     margin-top: 20px;
-    margin-left: 9rem;
+    display: block;
+    margin-right: $SMrem;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: black;
 }
 .referidos{
     border-style: groove;
@@ -389,6 +401,11 @@ h2 {
 .textAreaRegistro{
     width: 100%;
     font-size: 1.5rem;
+}
+@media (max-width : 768px){
+    .responsiv768px{
+        display: block !important;
+    }
 }
 
 

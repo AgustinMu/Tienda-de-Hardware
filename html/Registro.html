@@ -49,8 +49,8 @@
         </div>
       </nav>
 
-    <main class="">
-    <div class="fotoDePerfil">    
+    <main class="d-flex w-100 responsiv768px">
+    <div class="fotoDePerfil col-xs-12 col-sm-12 col-md-6 col-lg-6 d-flex">    
         <h1>Registro</h1>
         <h2 class="fotoDePerfilH2">Foto de Perfil</h2>
        <div class="d-flex text-center">
@@ -58,10 +58,12 @@
        </div>
         <textarea name="Descripcion" id="Descripcion" cols="100" rows="4" placeholder="Descripcion del perfil" class="textAreaRegistro"></textarea>
     </div>
-    <div class="text-center formRegistro">
-            <h2>Formulario de Registro:</h2>
-            <section class="text-center">
-                <form action="Guardado-de-registro.php" class="registro conteiner">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center ">
+            <section class="formRegistro">
+                
+                <form action="Guardado-de-registro.php" class="registro w-100 d-flex">
+                    <h2>Formulario de Registro:</h2>
+                <div class="w-100 text-center d-block">    
                     <input type="text" id="Username" placeholder="Username" class="input">
                     
                     <input type="email" id="email" placeholder="Email" class="input">
@@ -69,21 +71,24 @@
                     <input type="password" id="password" placeholder="Password" class="input">
                     
                     <input type="password" id="password" placeholder="Confirma tu Password" class="input">
-                    
+                </div>    
+                <div class="w-100 text-center">
                     <input type="reset" value="Cancelar" id="Cancelar" class="input2">
                     <input type="submit" value="Enviar" id="Enviar" class="input2">
+                </div>
                 </form>
             </section>
-    </div>
-    <aside class="referidos"> 
+    </div>        
+</main>
+    <aside class="referidos col-lg-12"> 
       
         <h2>Codigo de referidos:</h2>
-        <p class="codigo d-flex">24871-RthYn</p>
+        <p class="codigo text-center">24871-RthYn</p>
        <!-- <div>
         <input type="button" value="Copiar" class="codigoButton d-flex ">
        </div>     -->
     </aside>
-    </main>
+    
     <footer class="redes conteiner footerContacto" >
         <a href="https://www.facebook.com" target="_blank">
             <img src="../img/facebook.png" alt="Seguinos en nuestra cuenta de Facebook" class="separarImgRedes">
