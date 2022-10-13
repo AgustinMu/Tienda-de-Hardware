@@ -363,13 +363,15 @@ h2 {
 }
 .input{
     width: 50%;
-    margin-bottom: 1.5%;
+    height: 4em;
+    margin-bottom: 1%;
     border-style: solid;
     border-width: 4px;
     border-radius: 15px;
     border-color: black;
     text-align: center;
-    font-size: $XSrem;
+    font-size: 0.5em;
+
 }
 .input2{
     width: 20%;
@@ -460,19 +462,31 @@ h2 {
     border: map-get($map: $colores, $key:seis );
 }
 .inputPrivacidad{
-    width: 20%;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
+    width: 30%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 3em;
+    border-radius: 10px;
+    border-color: blue 
 }
 .input2Privacidad{
-    width: 20%;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
+    width: 30%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    font-size: 3em; 
+    border-radius: 10px;
+    border-color: blue 
 }
+.aPrivacidad{
+    text-align: center;
+    width: auto;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .labelNotificaciones{
     font-size: 4rem;
     line-height: 4.5rem;
